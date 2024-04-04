@@ -1,4 +1,4 @@
-function calculate() {
+function calculate() {  
     try {
         let weightInput = document.getElementById('weight-input');
         console.log(weightInput.value);
@@ -10,7 +10,7 @@ function calculate() {
                       if (result <18.5) {
                       console.log('Kekurangan Berat badan');
                       } else if (result >=18.5 && result <24.9) {
-                        console.log('normal');
+                        console.log('normal(ideal)');
                       } else if (result >=25.0 && result <29.9) {
                         console.log('Kelebihan berat badan');
                       } else if (result >=30.0) {
@@ -26,3 +26,16 @@ function calculate() {
         console.log(error);
     }
 }
+
+function reset() {
+  
+  let resetButton = document.getElementById('reset-button');
+  console.log(resetButton.value);
+      var weight = document.getElementById('weight-input');
+      var height = document.getElementById('height-input');
+      var result = document.getElementById('result-input');
+
+       weight.innerHTML = '';
+       height.innerHTML = '';
+       result.innerHTML = '';
+}     
