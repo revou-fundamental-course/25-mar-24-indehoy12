@@ -1,0 +1,89 @@
+header {
+    text-align: center;
+}
+
+h2, h3, h4 {
+    font-weight: 100;
+}
+
+p {
+    font-size: small;
+}
+
+.main-container {
+    display: flex;
+}
+
+.container-item {
+    width: 100%;
+    padding: 24px;
+}
+
+.container-item>h2 {
+    text-align: left;
+    font-weight: 100;
+}
+
+.container-result {
+    text-align: center;
+    background-color: rgb(223, 240, 254);
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+.container-form {
+    background-color: rgb(223, 240, 254);
+    padding: 24px;
+}
+
+.container-form>div {
+    padding: 8px;
+}
+
+#calculate-button {
+    background-color: rgb(7, 215, 252);
+    color: white; 
+}
+
+button {
+    height: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+#calculator-form, #download-button{
+    background-color: rgb(7, 215, 252);
+    color: white;
+}
+.button-consult, .button-regist {
+    background-color: rgb(7, 215, 252);
+    color: white;
+}
+
+.diabet {
+    text-align: center;
+    background-color: rgb(223, 240, 254);
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+.diabet>p {
+    line-height: 5px;
+}
+
+#aplication, #online {
+    background-color: rgb(7, 215, 252);
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main-container {
+        flex-direction: column;
+    }
+}
+
